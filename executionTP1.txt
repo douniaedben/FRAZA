@@ -1,0 +1,40 @@
+
+?- consult('C:/Users/BAYA TELECOM/OneDrive/المستندات/Prolog/tpp.pl').
+true.
+
+?- create_task(1,'Ramace les papiers','douniazed').
+Task created: 1.
+true.
+
+?- create_task(2,'faire la vaisselle','affaf').
+Task created: 2.
+true.
+
+?- assign_task(2,'douniazed').
+Task 2 assigned to user: douniazed.
+true.
+
+?- assign_task(1,'affaf').
+Task 1 assigned to user: affaf.
+true.
+
+?- mark_completed(2).
+Task 2 marked as completed.
+true.
+
+?- display_tasks.
+Task 1:
+- Description: Ramace les papiers
+- Assignee: affaf
+- Completion status: false
+
+Task 2:
+- Description: faire la vaisselle
+- Assignee: douniazed
+- Completion status: true
+
+true.
+
+?- display_tasks_assigned_to("affaf").
+Tasks assigned to affaf:
+true.
