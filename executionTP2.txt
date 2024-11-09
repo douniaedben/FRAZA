@@ -1,0 +1,19 @@
+
+?- consult('C:/Users/BAYA TELECOM/OneDrive/المستندات/Prolog/tp2.pl').
+true.
+
+?- member(X, [1, 2, 3, 4]).
+X = 1 
+Unknown action: 3 (h for help)
+Action? .
+
+?- consult('C:/Users/BAYA TELECOM/OneDrive/المستندات/Prolog/tp2.pl').
+true.
+
+?- member(X, [1, 2, 3, 4]).
+X = 1 .
+
+?- first(E, [1, 2, 3, 4]).
+E = 1.
+
+?- last(E, [1, 2, 3, 4]).
